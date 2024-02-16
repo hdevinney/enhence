@@ -35,12 +35,16 @@ If you wish to use an augmented version of SUC, we also suggest the following ch
 
 * `saldo.txt`
   - add the following line:
-  ```hen    hen	      PN|UTR|SIN|DEF|SUB/OBJ	0```
-* ``
+  ```
+hen    hen	      PN|UTR|SIN|DEF|SUB/OBJ	0
+```
+* `swe-brown100.txt`
   - add the following lines:
-  ```hen    23
+  ```
+  hen    23
   hen	    73
-  hens	    15```
+  hens	    15
+  ```
 * `suc-blogs.tab`
   - either run `extract-pronoun-sentences` and `produce-combined-corpus` or
   - find/replace the 9 instances of han/hon with hen 
