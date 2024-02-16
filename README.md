@@ -7,7 +7,7 @@ Data augmentation for adding the pronoun 'hen' to Swedish corpora
 
 A detailed description of the approach can be found in the following paper:
 
-Henrik Björklund and Hannah Devinney (2023). [Computer, en_hen_ce: POS-tagging improvements for nonbinary pronoun use in Swedish.](https://sites.google.com/view/lt-edi-2023/proceedings) LT-EDI 2023 -- Third Workshop on Language Technology for Equality, Diversity, and Inclusions, 54--61.
+Henrik Björklund and Hannah Devinney (2023). [Computer, enhence: POS-tagging improvements for nonbinary pronoun use in Swedish.](https://sites.google.com/view/lt-edi-2023/proceedings) LT-EDI 2023 -- Third Workshop on Language Technology for Equality, Diversity, and Inclusions, 54--61.
 
 ## Usage: Augmenting a Corpus
 
