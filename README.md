@@ -13,8 +13,8 @@ Henrik Björklund and Hannah Devinney (2023). [Computer, enhence: POS-tagging im
 
 To use this code, you will need to edit some paths to point towards the data you wish to modify. `enhence` uses a relatively simple rule-based approach, which will produce a few minor errors that you may wish to hand-correct. Support code (as well as suggested corrections for SUC) has been provided to aid with this.
 
-1. `extract-pronoun-sentences-[tab|conll].py`
-   - Two versions of extract-pronoun-sentences are provided, one for .tab files and one for .conll files. Use the appropriate version for your data.
+1. `extract-pronoun-sentences-[tab|conll|udt].py`
+   - Several versions of extract-pronoun-sentences are provided, one for .tab files, one for .conll files, and one for conllu (`udt`) files. Use the appropriate version for your data.
    - Modify the `INPUT_DIR` value to reflect the appropriate path before running the code (line 11)
 
 2. `produce-combined-corpus.py`
@@ -36,17 +36,17 @@ If you wish to use an augmented version of SUC, we also suggest the following ch
 * `saldo.txt`
   - add the following line:
   ```
-hen    hen	      PN|UTR|SIN|DEF|SUB/OBJ	0
-```
+  hen   hen   PN|UTR|SIN|DEF|SUB/OBJ   0
+  ```
 * `swe-brown100.txt`
   - add the following lines:
   ```
-  hen    23
-  hen	    73
-  hens	    15
+  hen   23
+  hen   73
+  hens  15
   ```
 * `suc-blogs.tab`
-  - either run `extract-pronoun-sentences` and `produce-combined-corpus` or
+  - either run `extract-pronoun-sentences` and `produce-combined-corpus`, _OR_
   - find/replace the 9 instances of han/hon with hen 
 
 
